@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>game</title>
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+<script>
+	$("body").keydown(function (event) {
+			
+			if(event.keyCode == 32)
+			{
+				jump();
+			}
+});
+</script>
+	<div id="game">
+		<div id="character"></div>
+		<dir id="block"></dir>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
